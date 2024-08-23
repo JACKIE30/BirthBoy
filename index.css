@@ -1,0 +1,536 @@
+/* Body */
+
+* {
+    font-family: 'Kanit', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+/* Nav Bar */
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+a:hover {
+    color: #00eaff;
+}
+
+header {
+    position: relative;
+    padding: 0 2rem;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #9f9f9f;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 40px;
+    border-radius: 40px;
+}
+
+
+.navbar .logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .nav ul {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.navbar .menu {
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+.navbar .highlight {
+    display: block;
+    margin-left: 0;
+    margin-right: 1rem;
+}
+
+.highlight {
+    background-color: #0ef;
+    color: black;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2s ease;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.highlight:hover {
+    transform: scale(1.05);
+    color: #000;
+}
+
+.highlight:active {
+    transform: scale(0.95);
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 60px;
+    width: 250px;
+    height: 0;
+    background: black;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    display: none;
+}
+
+.dropdown-menu li {
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown-menu .highlight {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown-menu.open {
+    height: 325px;
+    width: 100%;
+    max-width: 100%;
+    left: 0; 
+    right: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  background-color: transparent;
+}
+.main-left-side{
+    color: white;
+}
+.image{
+    color: white;
+    
+}
+.event{
+        font-family: "Kings", cursive;
+        font-weight: 400;
+        font-style: normal;
+
+}
+.main-class{
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    border-bottom: 1px solid white;
+}
+.trademark, .trademark2{
+    color: white;
+}
+.Celebration{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 120px;
+    margin-bottom: 180px;
+}
+.img{
+    color: white;
+}
+footer section{
+    display: flex;
+   
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+footer section section{
+    display: grid;
+}
+footer section section:nth-child(1) div h3{
+    font-size: 24px;
+    color: white;
+    padding-bottom: 60px;
+}
+footer section section:nth-child(1) p{
+    font-size: 16px;
+    color: white;
+}
+footer section section div:nth-child(1){
+    font-size: 16px;
+    color: white;
+}
+footer section section div:nth-child(2) ul{
+    list-style: none;
+    color: white;
+    font-size: 16px;
+}
+footer section section:nth-child(1) p{
+    font-size: 16px;
+    color: #9f9f9f;
+}
+.Email{
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    width: 180px;
+    border-bottom: 1px solid black;
+}
+.SUBSCRIBE{
+    border-bottom: 1px solid black;
+
+}
+.space{
+    color: white;
+}
+footer{
+    
+}
+.birthday-time{
+    display: flex;
+}
+.birthday-time div{
+    flex-basis: 100px;
+}
+.birthday-time div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+}
+/* Nav Bar Ends */
+
+/* Responsive */
+.main-left-side{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.main-left-content p:nth-child(1){
+    font-size: 50px;
+    margin-bottom: 30px;
+    padding-left: 180px;
+    color: #fdfd96;
+        font-family: "Great Vibes", cursive;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+.main-left-content p:nth-child(2){
+    font-size: 35px;
+    padding-left: 240px;
+    margin-bottom: 20px;
+    color: #FDFD96;
+    font-family: "Great Vibes", cursive;
+        font-weight: 400;
+        font-style: normal;
+    
+      
+}
+.main-left-content p:nth-child(3){
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: hotpink;
+    
+        font-family: "Bungee Shade", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        animation-name: jubu;
+    animation-duration: 5s;
+    animation-timing-function: all;
+    animation-iteration-count: infinite;   
+}
+.main-left-content p:nth-child(4){
+    font-size: 45px;
+        font-family: "Bangers", system-ui;
+        font-weight: 400;
+        font-style: normal;
+    padding-left: 190px;
+    color: #fdfd96;
+
+    
+      
+}
+.Celebrating{
+    color: #FDFD96;
+    
+}
+.event{
+    
+}
+.birthday-time{
+    padding-left: 100px;
+}
+.one{
+    margin-left: 215px;
+}
+.trademark{
+    color: rgb(225, 192, 206);
+        font-family: "Courgette", cursive;
+        font-weight: 400;
+        font-style: normal;
+}
+.main-register{
+    margin-top: 35px;
+}
+.main-photo{
+    margin-right: 80px;
+    margin-right: 70px;
+    margin-top: 70px;
+    background-color: #fde4cf;
+    width: 400px;
+    height: 400px;
+    border-radius:  60% 40% 88% 15% / 68% 86% 14% 34%     ;
+}
+.ayush-singh{
+    margin-top: 30px;
+    padding-left: 60px;
+        font-family: "Sacramento", cursive;
+        font-weight: 400;
+        font-style: normal;
+        color: #FD0058;
+        font-size: 60px;
+      
+}
+.Celebrating{
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.main-photo img{
+    padding-top: 15px;
+}
+.Celebration{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.trademark{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.trademark-main{
+    max-width: 300px;
+}
+.birthday-time{
+    padding-top: 30px;
+}
+@media (max-width: 992px) {
+    .navbar .nav ul {
+        display: none;
+    }
+    
+    .navbar .menu {
+        display: flex;
+    }
+    
+    .navbar .menu i {
+        display: inline-block;
+    }
+    
+    .navbar .highlight {
+        display: none;
+    }
+    
+    .dropdown-menu {
+        display: block;
+    }
+    
+    .dropdown-menu .highlight {
+        display: block;
+        margin-top: 1rem;
+    }
+    .main-class{
+        
+    }
+    .main-left-side{
+        text-align: center;
+        margin-left: 0px;
+        padding-left: 20px;
+    }
+    .birthday-time{
+        padding-left: 105px;
+    } 
+    /* .main-left-content{
+        padding-left: 20px;
+    }
+    .birthday-time{
+        padding-left: 105px;
+    } 
+    /* .main-left-content p:nth-child(1){
+        font-size: 30px;
+        margin-bottom: 30px;
+        font-family: "Abril Fatface", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .main-left-content p:nth-child(2){
+        font-size: 25px;
+        margin-bottom: 20px;
+        
+            font-family: "Galada", cursive;
+            font-weight: 400;
+            font-style: normal;
+        
+          
+    }
+    .main-left-content p:nth-child(3){
+        font-size: 50px;
+        margin-bottom: 30px;
+        color: hotpink;
+        
+            font-family: "Bungee Shade", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            animation-name: jubu;
+        animation-duration: 5s;
+        animation-timing-function: all;
+        animation-iteration-count: infinite;   
+    }
+    .main-left-content p:nth-child(4){
+        font-size: 45px;
+            font-family: "Bangers", system-ui;
+            font-weight: 400;
+            font-style: normal;
+        
+          
+    } */
+    .main-photo img{
+        width: 300px;
+        height: 300px;
+    }
+    .main-photo{
+        width: 300px;
+        height: 300px;
+    }
+}
+@media screen and (max-width:956px) {
+    .birthday-time{
+       padding-left: 80px; 
+    }
+}
+@media screen and (max-width: 780px){
+    .main-class{
+        display: grid;
+        height: 108vh;
+        padding-left: 80px;
+    }
+    .main-photo{
+        margin-top: 0;
+        margin: 0 auto;
+    }
+    
+}
+@media screen and (max-width: 718px){
+    .main-class{
+        margin-left: 0px; 
+        padding-left: 0px;
+    }
+}
+@keyframes jubu {
+    0%{
+        color: white;
+    }
+    25%{
+        color: aqua;
+    }
+    50%{
+        color: hotpink;
+    }
+    75%{
+        color: yellowgreen;
+    }
+    100%{
+        color: white;
+    }
+}
+#balloon-container {
+    height: 100vh;
+    padding: 1em;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    transition: opacity 500ms;
+  }
+  
+  .balloon {
+    height: 125px;
+    width: 105px;
+    border-radius: 75% 75% 70% 70%;
+    position: relative;
+  }
+  
+  .balloon:before {
+    content: "";
+    height: 75px;
+    width: 1px;
+    padding: 1px;
+    background-color: #FDFD96;
+    display: block;
+    position: absolute;
+    top: 125px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .main-class{
+    background-image: url(videoplayback\ \(5\).mp4);
+  }
+  
+  .balloon:after {
+      content: "▲";
+      text-align: center;
+      display: block;
+      position: absolute;
+      color: inherit;
+      top: 120px;
+      left: 0;
+      right: 0;
+      margin: auto;
+  }
+  
+  @keyframes float {
+    from {transform: translateY(100vh);
+    opacity: 1;}
+    to {transform: translateY(-300vh);
+    opacity: 0;}
+  }

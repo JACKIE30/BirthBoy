@@ -1,0 +1,137 @@
+.title{
+    padding: 100px 0px;
+}
+body{
+    margin:0;
+    padding: 2em;
+}
+body:before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+h2{
+    margin: 0.3rem;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+.timelines{
+    margin: 5em auto;
+    max-width: 34.15em;
+}
+.checkpoint{
+    max-width: 34rem;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    position: relative;
+}
+.checkpoint div{
+    border: 2px solid white;
+    border-radius: 1em;
+    padding: 1.5em;
+    box-shadow: rgba(255, 255, 255, 0.2) 10px 10px 55px, rgba(255, 255, 255, 0.12) 10px -12px 30px, rgba(255, 255, 255, 0.12) 10px 4px 6px, rgba(251, 251, 251, 0.17) 10px 12px 13px, rgba(86, 84, 84, 0.09) 5px -3px 5px;
+}
+.checkpoint:nth-child(odd){
+    border-left: 3px solid white;
+    padding-left: 3em;
+    transform: translateX(17em);
+}
+.checkpoint:nth-child(even){
+    border-right: 3px solid white;
+    padding-right: 3em;
+    transform: translateX(-17em);
+}
+.checkpoint:nth-child(odd)::before{
+    content: '';
+    background: white;
+    width: 3em;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.checkpoint:nth-child(even)::before{
+    content: '';
+    background: white;
+    width: 3em;
+    height: 3px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+
+    transform: translateY(50%);
+}
+.checkpoint:nth-child(even) div::before, .checkpoint:nth-child(odd) div:before{
+    content:'';
+    background: white;
+    width: 0.8rem;
+    height: 0.8em;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+}
+.checkpoint:nth-child(even) div::before{
+    right: -0.5em;
+}
+.checkpoint:nth-child(odd) div::before{
+    left: -0.5em;
+}
+.photos{
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.ayushs{
+
+  font-family: "Allura", cursive;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 70px;
+  color: blanchedalmond;
+}
+.ayush-dive{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color:thistle;
+
+}
+
+@media screen and (max-width: 1150px) {
+    .timelines{
+        width: 80vw;
+    }
+    .timelines .checkpoint{
+        width: 100%;
+        transform: none;
+        padding-left: 0;
+        padding-right: 0;
+        border: none;
+    }
+    
+    .timelines .checkpoint::before{
+        width: 3px;
+        height: 4em;
+        top:-2em;
+        left:50%;
+        transform: translateX(-50%);
+    }
+    .timelines .checkpoint div:before{
+        top:-0.5em;
+        left:50%;
+        transform: translateX(-50%);
+    }
+}

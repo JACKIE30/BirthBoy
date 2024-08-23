@@ -1,0 +1,101 @@
+.heading div:nth-child(2) h6{
+    font-size: 48px;
+}
+.heading div:nth-child(1){
+    padding-top: 100px;
+}
+.heading-second{
+    text-align: center;
+    margin-top: 150px;
+}
+.heading-second h6{
+    font-size: 36px;
+}
+.heading-second p{
+    font-size: 16px;
+    color: #9f9f9f;
+}
+.right-content{
+    float: right;
+    right: 0;
+}
+.dual{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 190px;
+}
+.left-content{
+    display: grid;
+    margin-left: 200px;
+}
+.side-content{
+    display: flex;
+    margin-bottom: 60px;
+}
+.side-content img{
+    width: 25px;
+    height: 25px;
+    margin-right: 50px;
+}
+.side-content div{
+    margin-top: 15px;
+    line-height: 30px;
+}
+.side-content div p:nth-child(1){
+    font-size: 24px;
+}
+.side-content div p:nth-child(2),
+.side-content div p:nth-child(3){
+    font-size: 16px;
+}
+.right-content{
+    margin-right: 150px;
+}
+.right-content div p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.right-content div input{
+    border: none;
+    border: 1px solid #ede9e9;
+    border-radius: 4px;
+    background-color: black;
+    padding-top: 20px;
+    padding-right: 300px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+}
+.right-content div:nth-child(4) input{
+    height: 150px;
+}
+.submit{
+    border: none;
+    background-color: #05EDFF;
+    font-size: 16px;
+    color: white;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 6px;
+}
+.more-details{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 400px;
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #faf3ea;
+    padding-bottom: 100px;
+}
+.heading-second h6{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 10px;
+}
